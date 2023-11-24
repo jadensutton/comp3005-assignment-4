@@ -1,3 +1,5 @@
+Video Demonstration: https://www.youtube.com/watch?v=Bq0LKiAAH2E
+
 Database Setup:
 1. Create a new database in postgres called Assignment4
 2. Run the table creation query found in database_scripts.txt to create the table
