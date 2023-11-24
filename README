@@ -1,0 +1,22 @@
+Database Setup:
+1. Create a new database in postgres called Assignment4
+2. Run the table creation query found in database_scripts.txt to create the table
+3. Run the insert default data query found in database_scripts.txt to insert the default student data
+
+Application Setup:
+1. Install the dependencies listed in requirements.txt using pip
+2. Run main.py
+
+Program Explanation:
+
+Main script: A simple script to prompt the user for input and call the corresponding methods in the client class
+
+Client._connect(): Create a new connection to the db
+
+Client.getAllStudents(): Run a select query to get all students in the db
+
+Client.addStudent(): Run an insert query to add a student to the db
+
+Client.updateStudentEmail(): Run an update query to update the email of a student in the db
+
+Client.deleteStudent(): Run a delete statement to delete a student from the db
